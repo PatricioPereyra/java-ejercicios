@@ -1,10 +1,15 @@
-
+/*
+ * EJERCICIO: Gestión de Stock de Bebidas
+ * 
+ * Consigna: Simular un sistema básico de ventas donde el usuario
+ * puede elegir productos, validar stock, calcular el total a pagar
+ * y seguir comprando hasta que decida salir.
+ * 
+ * Temas practicados: do-while, while, for, arreglos paralelos
+ */
 package javaapplication1;
 
 import java.util.Scanner;
-
-
-
 
 public class GestionDeStock {
 
@@ -52,6 +57,9 @@ public class GestionDeStock {
             System.out.println("Desea seguir comprando? S/N:");
             String respuesta = sc.next();
             seguirComprando = respuesta.equalsIgnoreCase("S");
+            for (int i = 0; i < 40; i++) {
+                System.out.println();
+            }
             
             
             
